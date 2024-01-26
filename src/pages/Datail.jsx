@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import airphots from "../assets/img/airphots.png";
 import bitmap from "../assets/img/bitmap.jpg";
 import Bitmap1 from "../assets/img/Bitmap1.png";
-import bitmap3 from "../assets/img/bitmap3.jpg";
+import bitmap3 from "../assets/img/Bitmap3.jpg";
 import quloq from "../assets/img/quloq.png";
 import oq from "../assets/img/oq.png";
 import kalomka from "../assets/img/kalomka.png";

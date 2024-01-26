@@ -8,9 +8,9 @@ import quloqchin from "../assets/img/quloqchin.png";
 import path from "../assets/img/path-2.png";
 import airphots from "../assets/img/airphots.png";
 import bitmap4 from "../assets/img/Bitmap4.png";
-import bitmap6 from "../assets/img/bitmap6.jpg";
-import bitmap7 from "../assets/img/bitmap7.jpg";
-import bitmap8 from "../assets/img/bitmap8.jpg";
+import bitmap6 from "../assets/img/Bitmap6.jpg";
+import bitmap7 from "../assets/img/Bitmap7.jpg";
+import bitmap8 from "../assets/img/Bitmap8.jpg";
 import { useState, useEffect } from "react";
 
 const Product1 = () => {
