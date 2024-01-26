@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import airphots from "../assets/img/airphots.png";
 import bitmap from "../assets/img/bitmap.jpg";
 import Bitmap1 from "../assets/img/Bitmap1.png";
-
+import bit from '../assets/img/bit.jpg'
 import quloq from "../assets/img/quloq.png";
 import oq from "../assets/img/oq.png";
 import kalomka from "../assets/img/kalomka.png";
@@ -136,6 +136,7 @@ const Datail = () => {
               <img className="w-[450px] rounded-xl" src={Bitmap1} alt="" />
             </div>
             <div>
+              <img src={bit} alt="" />
             </div>
           </div>
           <div>
