@@ -21,7 +21,7 @@ const Home = () => {
         <div className={`${styles.container}`}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
             <div className="text-white">
-              <div className="flex flex-col pl-20">
+              <div className="flex flex-col pl-10">
                 <p className="opacity-[0.4964] pt-12 mb-5">NEW PRODUCT</p>
                 <h1 className="text-2xl font-semibold w-[200px] sm:w-[300px] md:text-4xl md:font-bold md:w-[396px] mb-5">
                   XX99 Mark II <br /> Headphones

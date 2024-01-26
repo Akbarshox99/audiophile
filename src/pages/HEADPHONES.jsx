@@ -19,7 +19,7 @@ const HEADPHONES = () => {
       <div className="bg-black">
         <div className={`${styles.container}`}>
           <div className="py-16">
-            <h1 className="text-2xl font-semibold pl-20 sm:pl-[300px] md:text-3xl md:font-bold text-white md:pl-[300px] xl:pl-[550px] lg:text-4xl lg:font-bold">
+            <h1 className="text-2xl font-semibold px-20 sm:pl-[300px] md:text-3xl md:font-bold text-white md:pl-[300px] xl:pl-[550px] lg:text-4xl lg:font-bold">
               HEADPHONES
             </h1>
           </div>
@@ -36,7 +36,7 @@ const HEADPHONES = () => {
                 alt=""
               />
             </div>
-            <div className="ml-10 mt-5 md:ml-20 lg:ml-40 lg:mt-20">
+            <div className="ml-0 mt-5 md:ml-20 lg:ml-40 lg:mt-20">
               <b className="text-[#D87D4A] sm:mb-3 md:mb-3  lg:mb-6 inline-block">
                 NEW PRODUCT
               </b>
@@ -61,7 +61,7 @@ const HEADPHONES = () => {
             {/* 1 tugadi */}
 
             {/* 2 */}
-            <div className="mt-8 mx-8 sm:mb-5 lg:mr-40 lg:mt-20 lg:pt-20">
+            <div className="mt-8 mx-0 sm:mb-5 lg:mr-40 lg:mt-20 lg:pt-20">
               <h2 className="text-4xl font-bold mb-8">
                 XX99 Mark I <br />
                 Headphones
@@ -123,7 +123,7 @@ const HEADPHONES = () => {
         <div className={`${styles.container}`}>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
-            <div className="rounded-xl sm:ml-7">
+            <div className="rounded-xl mx-6 sm:ml-7">
               <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
@@ -133,7 +133,7 @@ const HEADPHONES = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
               <img className="mx-20 mb-[-70px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
@@ -143,7 +143,7 @@ const HEADPHONES = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-8 rounded-xl">
+            <div className="mt-8 px-6 rounded-xl">
               <img className="mx-20 mb-[-70px]" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>

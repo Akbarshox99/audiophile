@@ -15,7 +15,7 @@ const Forma = () => {
   const chat_id = 6322529768;
 
   const sendMessage = async () => {
-    const message = `F I SH: ${name}\nNovmer: ${email}\nemail va adreslar: ${userMessage}`;
+    const message = `F I SH: ${name}\nNovmer: ${email}\nadressingiz: ${userMessage}`;
 
     try {
       if (name.trim() != "" && email.trim() != "" && userMessage.trim() != "") {
@@ -102,7 +102,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="md:h-14 border-2 rounded-xl py-3 px-3 md:w-56"
+                        className="w-full md:h-14 border-2 rounded-xl py-3 px-3 md:w-56"
                         type="text"
                         id="name"
                         value={name}
@@ -117,7 +117,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="h-14 border rounded-xl py-3 px-3 md:w-56"
+                        className="h-14 w-full border rounded-xl py-3 px-3 md:w-56"
                         type="number"
                         id="email"
                         value={email}
@@ -127,17 +127,17 @@ const Forma = () => {
                       />
                     </div>
                   </div>
-                  <div className="mt-10">
+                  <div className="my-10">
                     <label className="text-xl font-semibold" htmlFor="message">
-                      email va adressingiz:
+                    adressingiz:
                     </label>
                     <br />
-                    <textarea
-                      className="w-full border rounded-xl resize-none h-40 py-3 px-3"
+                    <input
+                      className="w-full border rounded-xl resize-none py-3 px-3"
                       id="message"
                       value={userMessage}
                       onChange={(e) => setUserMessage(e.target.value)}
-                    ></textarea>
+                    ></input>
                   </div>
                 </div>
               </div>
