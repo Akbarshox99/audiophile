@@ -8,7 +8,7 @@ import stol from "../assets/img/stol.png";
 import quloq from "../assets/img/quloq.png";
 import oq from "../assets/img/oq.png";
 import quloqchin from "../assets/img/quloqchin.png";
-import path from "../assets/img/Path 2.png";
+import path from "../assets/img/path-2.png";
 import kalomka from "../assets/img/kalomka.png";
 import airphots from "../assets/img/airphots.png";
 import bitmap4 from "../assets/img/Bitmap4.png";

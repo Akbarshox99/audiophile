@@ -9,7 +9,7 @@ import quloq from "../assets/img/quloq.png";
 import oq from "../assets/img/oq.png";
 import kalomka from "../assets/img/kalomka.png";
 import quloqchin from "../assets/img/quloqchin.png";
-import path from "../assets/img/Path 2.png";
+import path from "../assets/img/path-2.png";
 import airphots from "../assets/img/airphots.png";
 import { useState, useEffect } from "react";
 
