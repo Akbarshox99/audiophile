@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import airphots from "../assets/img/airphots.png";
 import bitmap from "../assets/img/bitmap.jpg";
 import Bitmap1 from "../assets/img/Bitmap1.png";
-import bitmap3 from "../assets/img/Bitmap3.jpg";
+
 import quloq from "../assets/img/quloq.png";
 import oq from "../assets/img/oq.png";
 import kalomka from "../assets/img/kalomka.png";
@@ -88,7 +88,7 @@ const Datail = () => {
               <h2 className="text-2xl font-semibold mb-8 my-6">
                 XUSUSIYATLARI
               </h2>
-              <p className="opacity-60 md:w-[600xp]">
+              <p className="opacity-60 md:w-[600xp] lg:w-[500px] lg:mr-40">
                 Innovatsion akustik texnologiya tufayli tengsiz stereo tovushni
                 his eting. Kun bo'yi taqish uchun mo'ljallangan
                 takomillashtirilgan ergonomikaga ega bu inqilobiy quloqchinlar
@@ -136,7 +136,6 @@ const Datail = () => {
               <img className="w-[450px] rounded-xl" src={Bitmap1} alt="" />
             </div>
             <div>
-              <img className="rounded-xl" src={bitmap3} alt="" />
             </div>
           </div>
           <div>
