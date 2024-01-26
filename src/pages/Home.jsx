@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { NavLink } from "react-router-dom";
 import naushnik from "../assets/img/naushnik.png";
 import quloqchin from "../assets/img/quloqchin.png";
-import path from "../assets/img/path 2.png";
+import path from "../assets/img/path-2.png";
 import kalomka from "../assets/img/kalomka.png";
 import airphots from "../assets/img/airphots.png";
 import kalomka1 from "../assets/img/kalomka1.png";
