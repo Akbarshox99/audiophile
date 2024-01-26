@@ -45,7 +45,7 @@ const Home = () => {
       {/* main */}
       <main>
         <div className={`${styles.container}`}>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 my-10  md:my-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
             <div className="rounded-xl sm:ml-7">
               <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
