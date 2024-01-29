@@ -10,12 +10,14 @@ const Forma = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [userMessage, setUserMessage] = useState("");
+  const [text, setText] = useState("");
+  const [number, setNumber] = useState("");
 
   const telegram_bot_id = "6899183892:AAFLffHF78cBEkHhdlxwi2NiX9JA8fDgoXA";
   const chat_id = 6322529768;
 
   const sendMessage = async () => {
-    const message = `F I SH: ${name}\nNovmer: ${email}\nadressingiz: ${userMessage}`;
+    const message = `F I SH: ${name}\nNovmer: ${email}\nadressingiz: ${userMessage}\nMaxsulot nomi: ${text}\nMaxsulot soni: ${number}`;
 
     try {
       if (name.trim() != "" && email.trim() != "" && userMessage.trim() != "") {
@@ -65,6 +67,8 @@ const Forma = () => {
     setName("");
     setEmail("");
     setUserMessage("");
+    setText("");
+    setNumber("");
   };
   const [inputValue, setInputValue] = useState("");
 
@@ -102,7 +106,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="w-full md:h-14 border-2 rounded-xl py-3 px-3 md:w-56"
+                        className="w-72 sm:w-96  md:h-14 border-2 rounded-xl py-3 px-3 md:w-56 "
                         type="text"
                         id="name"
                         value={name}
@@ -113,42 +117,75 @@ const Forma = () => {
                     </div>
                     <div>
                       <label className="text-xl font-semibold" htmlFor="email">
-                     Telfon raqamingiz:
+                        Telfon raqamingiz:
                       </label>
                       <br />
                       <input
-                        className="h-14 w-full border rounded-xl py-3 px-3 md:w-56"
+                        className="h-14 w-72 sm:w-96  border rounded-xl py-3 px-3 md:w-56"
                         type="number"
                         id="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder="       +998"
-                        autoComplete="off" pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}"
+                        autoComplete="off"
+                        pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}"
                       />
                     </div>
                   </div>
-                  <div className="my-10">
-                    <label className="text-xl font-semibold" htmlFor="message">
-                    adressingiz:
+                  <div className="my-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center justify-between">
+                    <div>
+                      <label
+                        className="text-xl font-semibold"
+                        htmlFor="message"
+                      >
+                        adressingiz:
+                      </label>
+                      <br />
+                      <input
+                        className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                        id="message"
+                        value={userMessage}
+                        onChange={(e) => setUserMessage(e.target.value)}
+                        placeholder="    adressingiz"
+                      ></input>
+                    </div>
+                    <div className="flex flex-col">
+                      <label className="text-xl font-semibold">
+                        Maxsulot nomi:
+                      </label>
+                      <input
+                        className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                        type="text"
+                        id="text"
+                        value={text}
+                        onChange={(e) => setText(e.target.value)}
+                        placeholder="   masxulot nomi"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <label className="text-xl font-semibold">
+                      Maxsulot soni:
                     </label>
-                    <br />
                     <input
-                      className="w-full border rounded-xl resize-none py-3 px-3"
-                      id="message"
-                      value={userMessage}
-                      onChange={(e) => setUserMessage(e.target.value)}
-                    ></input>
+                      className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                      type="number"
+                      id="number"
+                      value={number}
+                      onChange={(e) => setNumber(e.target.value)}
+                      placeholder="      maxsulot soni"
+                    />
                   </div>
                 </div>
               </div>
               <button
-                className="h-14 bg-[#D87D4A] text-white rounded-lg py-4 px-5 md:ml-32 lg:ml-52"
+                className="h-14 bg-[#D87D4A] text-white rounded-lg py-4 px-5 md:ml-32 lg:ml-52 my-5"
                 onClick={sendMessage}
               >
                 Xabar jo'natish
               </button>
             </div>
-            <div className="bg-[#DCFCE7] py-6 px-6 rounded-xl  md:mx-5 my-10 lg:w-[450px] xl:w-[500px] lg:h-[300px] md:my-36">
+            <div className="bg-[#DCFCE7] py-6 px-6 rounded-xl md:h-[350px]  md:mx-5 my-10 lg:w-[450px] xl:w-[500px] lg:h-[300px] md:my-36">
               <h2 className="text-xl font-semibold text-blue-700 text-center pb-2">
                 Tolov usullari:
               </h2>
@@ -163,7 +200,6 @@ const Forma = () => {
               <div className="flex items-center space-x-6 justify-center md:px-16">
                 <a href="https://t.me/mamarayimovsamandar95" target="blank">
                   <svg
-               
                     xmlns="http://www.w3.org/2000/svg"
                     width="40"
                     height="40"
