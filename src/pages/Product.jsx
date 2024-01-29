@@ -29,12 +29,11 @@ const Product = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="bg-gray-300 w-[320px] sm:w-[530px] px-16 py-10 my-8 md:my-10 sm:mx-0 md:mx-0 md:w-[400px] md:h-[400px] lg:w-[540px] lg:h-[540px] xl:w-[540px] xl:py-28 xl:px-32">
               <img
-                className="w-[300px] h-[250px] sm:w-[300px] sm:h-[300px]"
                 src={qora}
                 alt=""
               />
             </div>
-            <div className="ml-10 mt-5 md:my-10 md:ml-16 lg:ml-40 lg:mt-20">
+            <div className="ml-0 mt-5 md:my-10 md:ml-16 lg:ml-40 lg:mt-20">
               <b className="text-[#D87D4A] sm:mb-3 md:mb-3  lg:mb-6 inline-block">
                 YANGI MAHSULOT
               </b>
@@ -49,7 +48,7 @@ const Product = () => {
                 yuqori darajadagi eshitish vositalaridan foydalanish tajribasini
                 qayta belgilaydi.
               </p>
-              <b className="mb-6 inline-block">210 ming</b>
+              <b className="my-6 inline-block">210 ming</b>
               <div className="flex my-5">
                 <div className="flex justify-center mr-2 lg:mr-8">
                   <button
@@ -83,7 +82,7 @@ const Product = () => {
               </div>
             </div>
           </div>
-          <div className="flex ml-10 mb-5 md:mb-20">
+          <div className="flex mb-5 md:mb-20">
             <div className="mt-5">
               <h2 className="text-2xl font-semibold mb-8 my-6">
                 XUSUSIYATLARI
@@ -188,12 +187,12 @@ const Product = () => {
               </div>
             </div>
           </div>
-            {/* main */}
-            <main>
+          {/* main */}
+          <main>
         <div className={`${styles.container}`}>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
-            <div className="rounded-xl sm:ml-7">
+            <div className="rounded-xl mx-6 sm:ml-7">
               <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
@@ -203,7 +202,7 @@ const Product = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
               <img className="mx-20 mb-[-70px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
@@ -213,7 +212,7 @@ const Product = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-8 rounded-xl">
+            <div className="mt-8 px-6 rounded-xl">
               <img className="mx-20 mb-[-70px]" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>

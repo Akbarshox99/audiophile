@@ -106,7 +106,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="w-72 sm:w-96  md:h-14 border-2 rounded-xl py-3 px-3 md:w-56 "
+                        className="w-80 sm:w-96  md:h-14 border-2 rounded-xl py-3 px-3 md:w-56 "
                         type="text"
                         id="name"
                         value={name}
@@ -121,7 +121,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="h-14 w-72 sm:w-96  border rounded-xl py-3 px-3 md:w-56"
+                        className="h-14 w-80 sm:w-96  border rounded-xl py-3 px-3 md:w-56"
                         type="number"
                         id="email"
                         value={email}
@@ -142,7 +142,7 @@ const Forma = () => {
                       </label>
                       <br />
                       <input
-                        className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                        className="w-80 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
                         id="message"
                         value={userMessage}
                         onChange={(e) => setUserMessage(e.target.value)}
@@ -154,7 +154,7 @@ const Forma = () => {
                         Maxsulot nomi:
                       </label>
                       <input
-                        className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                        className="w-80 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
                         type="text"
                         id="text"
                         value={text}
@@ -168,7 +168,7 @@ const Forma = () => {
                       Maxsulot soni:
                     </label>
                     <input
-                      className="w-72 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
+                      className="w-80 sm:w-96 md:w-56 border rounded-xl resize-none py-3 px-3"
                       type="number"
                       id="number"
                       value={number}

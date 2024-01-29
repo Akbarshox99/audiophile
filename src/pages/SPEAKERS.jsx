@@ -28,12 +28,12 @@ const SPEAKERS = () => {
           {/* 1 */}
           <div className="bg-gray-300 px-20 mb-3 md:px-0 sm:w-full sm:pt-12 sm:h-[400px] rounded-xl lg:py-20 h-[300px]  lg:h-[500px] lg:w-full">
             <img
-              className="w-60 h-60 my-8 sm:w-60 sm:h-60 sm:ml-10 sm:my-10 lg:w-60 lg:h-80 lg:mx-28"
+              className="w-60 h-56 my-8 sm:w-60 sm:h-60 sm:ml-10 sm:my-10 lg:w-60 lg:h-80 lg:mx-28"
               src={kalomka}
               alt=""
             />
           </div>
-          <div className="ml-8 md:ml-20 md:pt-11 lg:mt-10 lg:ml-40">
+          <div className="md:ml-20 md:pt-11 lg:mt-10 lg:ml-40">
             <b className="text-[#D87D4A] mb-2 lg:mb-4 inline-block">
               NEW PRODUCT
             </b>
@@ -55,7 +55,7 @@ const SPEAKERS = () => {
             </NavLink>
           </div>
           {/* 2 */}
-          <div className=" ml-8 md:pt-11 lg:mt-10 lg:mr-40 my-4">
+          <div className="md:pt-11 lg:mt-10 lg:mr-40 my-4">
             <b className="text-[#D87D4A] mb-2 lg:mb-4 inline-block">
               NEW PRODUCT
             </b>
@@ -85,12 +85,12 @@ const SPEAKERS = () => {
           </div>
         </div>
       </div>
-      {/* main */}
-      <main>
+        {/* main */}
+        <main>
         <div className={`${styles.container}`}>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
-            <div className="rounded-xl sm:ml-7">
+            <div className="rounded-xl mx-6 sm:ml-7">
               <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
@@ -100,7 +100,7 @@ const SPEAKERS = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
               <img className="mx-20 mb-[-70px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
@@ -110,7 +110,7 @@ const SPEAKERS = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-8 rounded-xl">
+            <div className="mt-8 px-6 rounded-xl">
               <img className="mx-20 mb-[-70px]" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>

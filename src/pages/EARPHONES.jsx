@@ -32,7 +32,7 @@ const EARPHONES = () => {
               alt=""
             />
           </div>
-          <div className="ml-10 mt-5 md:ml-20 md:my-20 lg:ml-40 lg:mt-20">
+          <div className="mt-5 md:ml-20 md:my-20 lg:ml-40 lg:mt-20">
             <b className="text-[#D87D4A] sm:mb-3 md:mb-3  lg:mb-6 inline-block">
               NEW PRODUCT
             </b>
@@ -55,12 +55,12 @@ const EARPHONES = () => {
           </div>
         </div>
       </div>
-      {/* main */}
-      <main>
+       {/* main */}
+       <main>
         <div className={`${styles.container}`}>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
-            <div className="rounded-xl sm:ml-7">
+            <div className="rounded-xl mx-6 sm:ml-7">
               <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
@@ -70,7 +70,7 @@ const EARPHONES = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
               <img className="mx-20 mb-[-70px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
@@ -80,7 +80,7 @@ const EARPHONES = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-8 rounded-xl">
+            <div className="mt-8 px-6 rounded-xl">
               <img className="mx-20 mb-[-70px]" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>
