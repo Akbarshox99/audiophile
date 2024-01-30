@@ -145,8 +145,8 @@ const Datail = () => {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0">
               <div>
-                <div className="w-[300px] h-[318px] bg-gray-300 rounded-xl py-8 px-8">
-                  <img className="w-60 h-72" src={quloq} alt="" />
+                <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
+                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={quloq} alt="" />
                 </div>
                 <h2 className="text-3xl font-semibold text-center mt-10">
                   XX99 MARK I
@@ -159,8 +159,8 @@ const Datail = () => {
                 </NavLink>
               </div>
               <div>
-                <div className="w-[300px] h-[318px] bg-gray-300 rounded-xl py-8 px-8">
-                  <img className="w-60 h-72" src={oq} alt="" />
+                <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
+                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={oq} alt="" />
                 </div>
                 <h2 className="text-3xl font-semibold text-center pt-10">
                   XX59
@@ -173,8 +173,8 @@ const Datail = () => {
                 </NavLink>
               </div>
               <div>
-                <div className="w-[300px] h-[318px] bg-gray-300 rounded-xl py-8 px-8">
-                  <img className="w-60 h-72" src={kalomka} alt="" />
+                <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
+                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={kalomka} alt="" />
                 </div>
                 <h2 className="text-3xl font-semibold text-center pt-10">
                   ZX9 SPEAKER
