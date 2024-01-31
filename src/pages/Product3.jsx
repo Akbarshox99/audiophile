@@ -184,13 +184,13 @@ const Product3 = () => {
               </div>
             </div>
           </div>
-         {/* main */}
-         <main>
+     {/* main */}
+     <main>
         <div className={`${styles.container}`}>
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
+          <div className="my-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
             <div className="rounded-xl mx-6 sm:ml-7">
-              <img className="mx-20 mb-[-70px]" src={quloqchin} alt="" />
+              <img className="mx-16 mb-[-70px] w-40 h-40" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
                 <NavLink to="/product1" className="flex items-center ml-32">
@@ -200,7 +200,7 @@ const Product3 = () => {
               </div>
             </div>
             <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
-              <img className="mx-20 mb-[-70px]" src={kalomka} alt="" />
+              <img className="mx-16 mb-[-70px] w-40 h-[150px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
                 <NavLink to="/product3" className="flex items-center ml-32">
@@ -210,7 +210,7 @@ const Product3 = () => {
               </div>
             </div>
             <div className="mt-8 px-6 rounded-xl">
-              <img className="mx-20 mb-[-70px]" src={airphots} alt="" />
+              <img className="mx-20 mb-[-70px] w-32 h-32" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>
                 <NavLink to="/datali" className="flex items-center ml-32">
