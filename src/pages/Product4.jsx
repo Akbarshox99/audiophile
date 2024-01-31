@@ -144,10 +144,24 @@ const Product4 = () => {
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0">
               <div>
                 <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
-                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={quloq} alt="" />
+                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={kalomka} alt="" />
                 </div>
                 <h2 className="text-3xl font-semibold text-center mt-10">
                   XX99 MARK I
+                </h2>
+                <NavLink
+                  className="w-40 h-12 inline-block bg-[#D87D4A] text-white font-semibold pt-3 text-center ml-20 my-10"
+                  to="/product3"
+                >
+                  BATAFSIL
+                </NavLink>
+              </div>
+              <div>
+                <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
+                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={quloq} alt="" />
+                </div>
+                <h2 className="text-3xl font-semibold text-center pt-10">
+                  XX59
                 </h2>
                 <NavLink
                   className="w-40 h-12 inline-block bg-[#D87D4A] text-white font-semibold pt-3 text-center ml-20 my-10"
@@ -161,37 +175,23 @@ const Product4 = () => {
                   <img className="w-54 h-44 lg:w-60 lg:h-72" src={oq} alt="" />
                 </div>
                 <h2 className="text-3xl font-semibold text-center pt-10">
-                  XX59
-                </h2>
-                <NavLink
-                  className="w-40 h-12 inline-block bg-[#D87D4A] text-white font-semibold pt-3 text-center ml-20 my-10"
-                  to="/product2"
-                >
-                  BATAFSIL
-                </NavLink>
-              </div>
-              <div>
-                <div className="mx-4 py-20 px-20 w-[300px] h-[318px] bg-gray-300 rounded-xl lg:py-8 lg:px-8">
-                  <img className="w-54 h-44 lg:w-60 lg:h-72" src={kalomka} alt="" />
-                </div>
-                <h2 className="text-3xl font-semibold text-center pt-10">
                   ZX9 SPEAKER
                 </h2>
                 <NavLink
                   className="w-40 h-12 inline-block bg-[#D87D4A] mx-20 text-white font-semibold pt-3 text-center my-10"
-                  to="/product3"
+                  to="/product2"
                 >
                   BATAFSIL
                 </NavLink>
               </div>
             </div>
           </div>
-     {/* main */}
-     <main>
+       {/* main */}
+       <main>
         <div className={`${styles.container}`}>
           <div className="my-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
-            <div className="rounded-xl mx-6 sm:ml-7">
+            <div className="rounded-xl sm:ml-7">
               <img className="mx-16 mb-[-70px] w-40 h-40" src={quloqchin} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">HEADPHONES</h2>
@@ -201,7 +201,7 @@ const Product4 = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 rounded-xl md:mx-4 lg:mx-4">
               <img className="mx-16 mb-[-70px] w-40 h-[150px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
@@ -211,7 +211,7 @@ const Product4 = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-8 px-6 rounded-xl">
+            <div className="mt-8 rounded-xl">
               <img className="mx-20 mb-[-70px] w-32 h-32" src={airphots} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">EARPHONES</h2>

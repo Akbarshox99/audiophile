@@ -118,8 +118,8 @@ const HEADPHONES = () => {
           </div>
         </div>
       </div>
-       {/* main */}
-       <main>
+        {/* main */}
+        <main>
         <div className={`${styles.container}`}>
           <div className="my-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  md:mt-20 md:mb-20 space-x-0 md:space-x-5 lg:space-x-0 xl:space-x-8">
             {/* main */}
@@ -133,7 +133,7 @@ const HEADPHONES = () => {
                 </NavLink>
               </div>
             </div>
-            <div className="mt-3 px-6 rounded-xl md:mx-4 lg:mx-4">
+            <div className="mt-3 rounded-xl px-6 md:mx-4 lg:mx-4">
               <img className="mx-16 mb-[-70px] w-40 h-[150px]" src={kalomka} alt="" />
               <div className="bg-[#F1F1F1] w-72 h-40">
                 <h2 className="font-semibold text-center pt-20">SPEAKERS</h2>
