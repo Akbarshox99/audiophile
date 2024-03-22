@@ -47,13 +47,13 @@ const Footer = () => {
             </p>
             <div className='flex justify-between pt-10'>
               <div className='flex space-x-6'>
-                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='_blank' rel='noopener noreferrer'>
+                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='blank' rel='noopener noreferrer'>
                   <img className='w-10 h-10' src={fakebook} alt="" />
                 </a>
-                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='_blank' rel='noopener noreferrer'>
+                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='blank' rel='noopener noreferrer'>
                   <img className='w-10 h-10' src={twinter} alt="" />
                 </a>
-                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='_blank' rel='noopener noreferrer'>
+                <a href="https://instagram.com/_.akbarshookh._?igshid=NGVhN2U2NjQ0Yg==" target='blank' rel='noopener noreferrer'>
                   <img className='w-10 h-10' src={instagram} alt="" />
                 </a>
               </div>
