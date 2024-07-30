@@ -18,7 +18,7 @@ const HEADPHONES = () => {
     <div>
       <div className="bg-black">
         <div className={`${styles.container}`}>
-          <div className="py-16">
+          <div className="py-16">   
             <h1 className="text-2xl font-semibold px-20 sm:pl-[300px] md:text-3xl md:font-bold text-white md:pl-[300px] xl:pl-[550px] lg:text-4xl lg:font-bold">
               HEADPHONES
             </h1>
